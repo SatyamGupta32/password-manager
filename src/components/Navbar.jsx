@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import github from "../assets/github.svg";
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
