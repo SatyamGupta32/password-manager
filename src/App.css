@@ -1,0 +1,26 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+table td, table th {
+  padding: 4px; /* Adjust the padding as needed for mobile view */
+}
+
+.lordIcon lord-icon{
+  width: 16px;
+}
+
+@media screen and (min-width:768px){
+  .lordIcon lord-icon{
+    width: 25px;
+  }
+  table td, table th {
+    padding: 10px; /* Adjust the padding as needed for greater than mobile view */
+  }
+}
